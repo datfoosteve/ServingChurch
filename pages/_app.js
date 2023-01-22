@@ -75,4 +75,126 @@ export default function MyApp({ Component, pageProps }) {
           </div>
         </div>
         <div className="md:flex md:items-center mb-6">
+    <div className="md:w-1/3">
+            <label className="block text-gray-500 font-medium mb-2" for="email">
+              Email
+            </label>
+            <input
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="email"
+              type="email"
+              placeholder="john.doe@example.com"
+            />
+          </div>
+        </div>
+        <div className="md:flex md:items-center mb-6">
+          <div className="md:w-1/3">
+            <label className="block text-gray-500 font-medium mb-2" for="phone">
+              Phone Number
+            </label>
+            <input
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="phone"
+              type="tel"
+              placeholder="555-555-5555"
+            />
+          </div>
+          <div className="md:w-2/3">
+            <label className="block text-gray-500 font-medium mb-2" for="message">
+              Message
+            </label>
+            <textarea
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32"
+              id="message"
+              placeholder="Enter your prayer request here..."
+            ></textarea>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <button
+            className="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section id="blog" className="bg-white py-16">
+    <div className="container mx-auto px-4">
+      <h2 className="text-3xl font-bold text-center">Blog</h2>
+      <div className="flex flex-wrap -mx-4">
+        <div className="w-full md:w-1/3 px-4 mb-8">
+          <div className="bg-gray-200 p-6 rounded-lg">
+            <h3 className="text-lg font-medium">
+              Blog post title goes here
+            </h3>
+            <p className="text-gray-600 my-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              malesuada, magna a faucibus tincidunt, quam augue...
+            </p>
+            <a
+              href="#"
+     className="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded
+    
+    </a>
+          </form>
+        </div>
+      </section>
+      <section id="blog" className="bg-white py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center">Blog</h2>
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/2 px-4 mb-8">
+              <div className="bg-gray-200 p-6 rounded-lg">
+                <h3 className="text-lg font-medium">Blog Post Title</h3>
+                <p className="text-gray-600 my-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  malesuada, magna a faucibus tincidunt, quam augue...
+                </p>
+                <a href="#" className="text-blue-500">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 px-4 mb-8">
+              <div className="bg-gray-200 p-6 rounded-lg">
+                <h3 className="text-lg font-medium">Blog Post Title</h3>
+                <p className="text-gray-600 my-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  malesuada, magna a faucibus tincidunt, quam augue...
+                </p>
+                <a href="#" className="text-blue-500">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 px-4 mb-8">
+              <div className="bg-gray-200 p-6 rounded-lg">
+                <h3 className="text-lg font-medium">Blog Post Title</h3>
+                <p className="text-gray-600 my-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  malesuada, magna a faucibus tincidunt, quam augue...
+                </p>
+                <a href="#" className="text-blue-500">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer className="bg-gray-900 text-white py-12">
+      <div className="container mx-auto px-4">
+        <p className="text-center">
+          Copyright &copy; {new Date().getFullYear()} The Serving Church
+        </p>
+      </div>
+    </footer>
+  </>
+)
+}
+}
 
