@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: ' Welcome to the Serving Church',
     description: ' To find your true purpose.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: 'https://i.imgur.com/kmJ3tg2.jpg'
   }
 
   return (
