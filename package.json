@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "license": "MIT",
   "scripts": {
     "dev": "next",
@@ -32,6 +32,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "postcss-preset-env": "^7.8.3"
-  }
+    "postcss-preset-env": "^7.8.3",
+    "webpack": "^5.75.0"
+  },
+  "name": "servingChurch",
+  "version": "1",
+  "description": "The website contains information about the church, including their mission, services, prayer line, blog, and podcast. The code imports various stylesheets, sets the title and meta information in the head of the HTML, and includes a header with the church's logo and title. The main content of the website is split into sections, each with a unique heading and corresponding information. One of the sections includes a form for submitting prayer requests. The overall design and layout of the website is achieved through the use of HTML, CSS and Next.js framework.",
+  "main": "index.js",
+  "repository": "https://github.com/datfoosteve/ServingChurch",
+  "author": "Stephen Puthenpurackal <datfoosteve@gmail.com>"
 }
