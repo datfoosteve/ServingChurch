@@ -9,12 +9,12 @@ const HomePage = () => {
       <ul>
         <li>
           <Link href="/posts/first-post">
-            <a>First post</a>
+            First post
           </Link>
         </li>
         <li>
           <Link href="/posts/second-post">
-            <a>Second post</a>
+            Second post
           </Link>
         </li>
       </ul>
