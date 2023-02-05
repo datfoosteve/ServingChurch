@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /// <reference types="spotify-api" />
 import Head from "next/head";
 import Link from "next/link";
@@ -33,12 +34,12 @@ export default function AboutPage({ tracks }: Props) {
         <p>
           We are The Serving Church. We live to serve. We believe that serving
           others and sharing the love of Jesus Christ is the key to a meaningful
-          life.<br></br> Our mission is to spread the message of hope and love to those
+          life.<br/> Our mission is to spread the message of hope and love to those
           around us, and to make a positive impact in our community through acts
-          of compassion and kindness.<br></br> We are a tight-knit community of
+          of compassion and kindness.<br/> We are a tight-knit community of
           believers, united in our commitment to serving others and sharing the
           love of Christ. We have seen the transformative power of this message
-          in our own lives, and are eager to share it with others.<br></br> Our church is
+          in our own lives, and are eager to share it with others.<br/> Our church is
           more than just a place to worship, it's a family of individuals who
           care for one another and work together to make a difference in the
           lives of those around us. Whether you're looking for a place to
@@ -46,7 +47,7 @@ export default function AboutPage({ tracks }: Props) {
           with God, we invite you to join us and be a part of this amazing
           community. By serving others and sharing the love of Christ, we
           believe that you too can experience the joy and fulfillment that comes
-          from being a part of God's kingdom.<br></br> So come, join us at The Serving
+          from being a part of God's kingdom.<br/> So come, join us at The Serving
           Church, and let us serve and share the love of Jesus together.
           Together, we can bring hope, love, and healing to those in need and
           make a positive impact in our community.
