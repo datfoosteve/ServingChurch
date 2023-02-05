@@ -1,0 +1,19 @@
+---
+title: "Why you should really take a look at PlanetScale"
+date: "2022-10-30"
+description: "My review and first impressions of the MySQL-compatible serverless platform"
+---
+
+Your database is the source of truth for your business, and it is crucial to make informed decisions when it comes to managing your data. Over time, businesses may change their database platform as their data or usage patterns evolve.
+
+For structured data, SQL (Structured Query Language) is often the preferred option for its performance, reliability, and compliance. SQL is a domain-specific language used to manage data in a relational database management system (RDBMS) and has been widely used since the 1970s.
+
+On the other hand, NoSQL databases, such as MongoDB, offer advantages such as horizontal scaling, which is not traditionally available in SQL databases. Horizontal scaling refers to adding more servers to a database, allowing it to handle more traffic and data, whereas vertical scaling refers to increasing the resources of a single server.
+
+However, what if you need a SQL database for your structured data and want the performance and reliability of horizontal scaling? This is where [Vitess](https://vitess.io/) comes in, a technology that addresses this shortcoming for MySQL databases. Vitess is used by many high-traffic websites, such as YouTube, Pinterest, and Slack, and provides horizontal sharding, improved query performance, and reduced connection memory overhead for MySQL databases.
+
+While Vitess can be difficult to implement in production, [PlanetScale](https://planetscale.com/) is powered by Vitess and offers a beautifully simplified solution. PlanetScale is a MySQL-compatible serverless database platform with horizontal sharding and unlimited connections, offering state-of-the-art performance and scaling.
+
+One of the key advantages of PlanetScale is its zero-downtime non-blocking schema migrations. Migrations can often cause downtime and data loss, but PlanetScale solves this problem by using a branching model, similar to the one used in git. The main branch contains the data, and future schema changes are made in a development branch, which is deployed to production only after it is determined that there are no schema conflicts.
+
+In conclusion, PlanetScale is a high-quality product that offers ease of use, performance, and scaling, with the added benefit of zero-downtime non-blocking schema migrations. The branching model is a game-changer, and I look forward to seeing what else PlanetScale has to offer in the future.
