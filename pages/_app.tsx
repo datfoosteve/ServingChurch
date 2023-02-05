@@ -10,7 +10,7 @@ import "../styles/globals.css";
 import "../styles/expand.css";
 import "../styles/code.css";
 import "../styles/spotify.css";
-import "../styles/projects.css";
+// import "../styles/projects.css";
 
 import type { AppProps } from "next/app";
 
