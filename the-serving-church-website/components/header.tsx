@@ -8,7 +8,7 @@ export default function Header() {
         href="/"
         className="font-display text-xl font-bold text-gray-900 hover:underline dark:text-gray-100 tablet:text-2xl"
       >
-        Stephen Puthenpurackal
+        The Serving Church
       </Link>
       <ThemeToggle />
       <nav className="text-lg tablet:ml-auto tablet:text-xl">

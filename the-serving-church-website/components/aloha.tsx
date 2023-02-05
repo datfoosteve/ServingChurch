@@ -19,10 +19,10 @@ export default function Aloha() {
   return (
     <div className="md:flex">
       <div>
-        <h2 className="my-8 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl md:text-[text-4rem] lg:text-[5.5rem] lg:leading-none">
-          Aloha, I&apos;m <br />{" "}
+        <h2 className="my-8 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl md:text-[text-2rem] lg:text-[3.5rem] lg:leading-none">
+          A warm Welcome <br />{" "}
           <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-            Stephen Puthenpurackal
+           From The Serving Church
           </span>
         </h2>
         <p className="my-4 md:text-lg lg:text-xl">

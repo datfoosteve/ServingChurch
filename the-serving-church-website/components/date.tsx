@@ -7,6 +7,6 @@ type Props = {
 
 export default function Date({ dateString }: Props) {
   const date = parseISO(dateString);
-  const zonedDate = utcToZonedTime(date, "Central Time");
+  const zonedDate = utcToZonedTime(date, "America/Chicago");
   return <time dateTime={dateString}>{format(zonedDate, "LLLL d, yyyy")}</time>;
 }
