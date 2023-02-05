@@ -18,7 +18,7 @@ export default function AboutPage({ tracks }: Props) {
         <title>About</title>
         <meta
           name="description"
-          content="Learn more about me, I'm a Hawaii-based software engineer with a passion for web performance and accessibility."
+          content="Do not let your hearts be troubled. Trust in God; trust also in me."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -31,14 +31,25 @@ export default function AboutPage({ tracks }: Props) {
 
       <section className="prose mx-auto mb-16 max-w-5xl px-4 prose-a:text-sky-600 dark:prose-invert dark:prose-a:text-sky-300 md:prose-lg lg:mb-32 lg:prose-xl">
         <p>
-          I&apos;m a software engineer in Hawaii, specializing in full-stack web
-          development with a focus on accessibility and performance. My mission
-          is to create technology that not only solves problems but also
-          improves people&apos;s lives, by building accessible and efficient
-          applications with a positive impact on society. I am committed to
-          continuous learning and growth, both personally and professionally,
-          and to fostering a culture of collaboration and inclusivity in the
-          tech community.
+          We are The Serving Church. We live to serve. We believe that serving
+          others and sharing the love of Jesus Christ is the key to a meaningful
+          life.<br></br> Our mission is to spread the message of hope and love to those
+          around us, and to make a positive impact in our community through acts
+          of compassion and kindness.<br></br> We are a tight-knit community of
+          believers, united in our commitment to serving others and sharing the
+          love of Christ. We have seen the transformative power of this message
+          in our own lives, and are eager to share it with others.<br></br> Our church is
+          more than just a place to worship, it's a family of individuals who
+          care for one another and work together to make a difference in the
+          lives of those around us. Whether you're looking for a place to
+          connect with other believers, or seeking to deepen your relationship
+          with God, we invite you to join us and be a part of this amazing
+          community. By serving others and sharing the love of Christ, we
+          believe that you too can experience the joy and fulfillment that comes
+          from being a part of God's kingdom.<br></br> So come, join us at The Serving
+          Church, and let us serve and share the love of Jesus together.
+          Together, we can bring hope, love, and healing to those in need and
+          make a positive impact in our community.
         </p>
         <p>
           I share my learning journey on my <Link href="/blog">blog</Link> and{" "}
@@ -126,4 +137,3 @@ export default function AboutPage({ tracks }: Props) {
 //   return {
 //     props: { tracks },
 //   };
-

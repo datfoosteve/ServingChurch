@@ -26,10 +26,10 @@ export default function Aloha() {
           </span>
         </h2>
         <p className="my-4 md:text-lg lg:text-xl">
-          💻 I&apos;m a software engineer 🌴 Sunnyvale School
+         A Community Driven Church striving to serve the community.
         </p>
         <p className="my-4 md:text-lg lg:text-xl">
-          💕 Lover of 80&apos;s Jesus and 🍜 my Community!
+          With a vision to reach the unreached and to serve the world.
         </p>
         <div className="my-8 flex">
           <Link
