@@ -37,6 +37,8 @@ export default function ProjectsPage() {
   );
 }
 
+export {}
+
 // export async function getStaticProps() {
 //   const endpoint = "https://api.github.com/graphql";
 
