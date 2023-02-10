@@ -53,10 +53,10 @@ export default function AboutPage({ tracks }: Props) {
           make a positive impact in our community.
         </p>
         <p>
-          I share my learning journey on my <Link href="/blog">blog</Link> and{" "}
-          <Link href="">YouTube</Link> channel and am always available to help.
-          If you think I can be of any assistance, don&apos;t hesitate to{" "}
-          <Link href="/contact">reach out</Link>
+          I share my learning journey on my <Link href="/blog">blog</Link>.
+          Do not be afraid to call on us. We will always be available to help.
+          If you can let Christ in, then anything is possible. Feel free to {" "}
+          <Link href="/contact">reach out</Link> to us.
         </p>
       </section>
 
