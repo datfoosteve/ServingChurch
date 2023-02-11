@@ -13,9 +13,6 @@ module.exports = {
       display: ["Inter", ...defaultTheme.fontFamily.sans],
       body: ["IBM Plex Sans", ...defaultTheme.fontFamily.sans],
     },
-    backgroundImage: {
-      "hero-pattern": "url('/images/hero-pattern.svg')",
-    },
     extend: {
       colors: {
         gray: colors.zinc,
