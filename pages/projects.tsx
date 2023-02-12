@@ -22,7 +22,7 @@ export default function ProjectsPage() {
       <div className="bg-fixed bg-cover bg-center bg-no-repeat rounded-md bg-[#F9FAFB] dark:bg-gray-900" style={{ backgroundImage: "url(../images/bluebackground.svg)" }}>
       <header>
         <h1 className="mx-auto mt-8 mb-8 max-w-6xl px-4 text-5xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem]">
-        <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> Projects That Are Coming Soon! </a>
+        <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> Projects-Coming Soon! </a>
         </h1>
 
       <ul className="mx-auto mb-16 max-w-5xl px-4">
