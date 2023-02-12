@@ -29,6 +29,13 @@ export default function Header() {
               Podcasts
             </Link>
           </li>
+
+          <li>
+            <Link href="/prayer" className="hover:underline">
+              Prayer Requests
+            </Link>
+          </li>
+
           <li>
             <Link href="/contact" className="hover:underline">
               Contact
