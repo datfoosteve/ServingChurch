@@ -9,7 +9,7 @@ import {
 const social = {
   twitter: `https://twitter.com`,
   linkedin: `https://www.linkedin.com/in/stephenputhenpurackal/`,
-  github: `https://github.com/datfoosteve`,
+  github: `https://github.com/datfoosteve/ServingChurch`,
   youtube: `https://www.youtube.com`,
 };
 

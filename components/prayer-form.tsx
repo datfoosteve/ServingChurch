@@ -4,19 +4,14 @@ export default function ContactForm() {
   const [state, handleSubmit] = useForm("mdojozdp");
 
   if (state.succeeded) {
-    return (
-      <p>
-       We are pleased to inform you that the prayer request form has been successfully submitted. Our team has received your request and we will be lifting you up in prayer.
-
-We understand that this may be a difficult time for you, and we want to assure you that you are not alone. Our community of believers is here to support you and we believe in the power of prayer.
-
-Please know that your request will be kept confidential and will only be shared with our prayer team. We ask that you continue to trust in the Lord and hold fast to your faith.
-
-If you would like to share any updates or further requests, please do not hesitate to reach out to us. We are here for you and we will continue to keep you in our prayers.
-
-Blessings,
-The Prayer Team.
-      </p>
+    return (<>
+        <p>We are pleased to inform you that the prayer request form has been successfully submitted. Our team has received your request and we will be lifting you up in prayer.</p>
+        <p>We understand that this may be a difficult time for you, and we want to assure you that you are not alone. Our community of believers is here to support you and we believe in the power of prayer.</p>
+        <p>Please know that your request will be kept confidential and will only be shared with our prayer team. We ask that you continue to trust in the Lord and hold fast to your faith.</p>
+        <p>If you would like to share any updates or further requests, please do not hesitate to reach out to us. We are here for you and we will continue to keep you in our prayers.</p>
+        <p>Blessings,</p>
+        <p>The Prayer Team.</p>
+        </>
     );
   }
 
