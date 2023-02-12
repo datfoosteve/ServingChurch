@@ -18,10 +18,10 @@ const social = {
 export default function Aloha() {
   return (
     // < class="bg-fixed ..." style="background-image: url("../images/background.png")">
-    <div className="bg-fixed bg-cover bg-center bg-no-repeat bg-[#F9FAFB] dark:bg-gray-900" style={{ backgroundImage: "url(../images/background.png)" }}>
+    <div className="bg-fixed bg-cover bg-center bg-no-repeat rounded-md bg-[#F9FAFB] dark:bg-gray-900" style={{ backgroundImage: "url(../images/background.png)" }}>
     <div className="md:flex">
       <div>
-        <div className="mt-20 block w-full rounded-md border border-gray-500 bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-800 dark:text-gray-100  m-10 ">
+        <div className="mt-20 block w-full rounded-md border border-gray-500 bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100  ">
         <h2 className="my-8 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl md:text-[text-2rem] lg:text-[3.5rem] lg:leading-none">
           A Warm Welcome <br />{" "}
           <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
