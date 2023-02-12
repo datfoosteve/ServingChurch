@@ -18,7 +18,7 @@ export default function Aloha() {
           </span>
         </h2>
         <p className="my-4 md:text-lg lg:text-xl">
-         A Community Driven Church striving to serve the community.
+         A Passion Driven Church striving to serve the community.
         </p>
         <p className="my-4 md:text-lg lg:text-xl">
           With a vision to reach the unreached and to serve the world.
