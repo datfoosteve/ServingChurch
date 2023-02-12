@@ -3,6 +3,7 @@ import ThemeToggle from "./theme-toggle";
 
 export default function Header() {
   return (
+    <div className="bg-fixed bg-cover bg-center bg-no-repeat rounded-md bg-[#F9FAFB] dark:bg-gray-900" style={{ backgroundImage: "url(../images/banner.png)" }}>
     <header className="mx-auto my-8 flex max-w-5xl flex-wrap px-4 tracking-tight">
       <Link
         href="/"
@@ -11,7 +12,7 @@ export default function Header() {
         The Serving Church
       </Link>
       <ThemeToggle />
-      <nav className="text-lg tablet:ml-auto tablet:text-xl">
+      <nav className="text-lg tablet:ml-auto tablet:text-xl  text-gray-900 dark:text-gray-100">
         <ul className="my-4 flex gap-2 tablet:m-0">
           <li>
             <Link href="/about" className="hover:underline">
@@ -36,5 +37,6 @@ export default function Header() {
         </ul>
       </nav>
     </header>
+    </div>
   );
 }
