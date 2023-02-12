@@ -29,7 +29,7 @@ export default function AboutPage({ tracks }: Props) {
           About
         </h1>
       </header>
-
+      
       <section className="prose mx-auto mb-16 max-w-5xl px-4 prose-a:text-sky-600 dark:prose-invert dark:prose-a:text-sky-300 md:prose-lg lg:mb-32 lg:prose-xl">
         <p>
           We are The Serving Church. We live to serve. We believe that serving
@@ -59,6 +59,7 @@ export default function AboutPage({ tracks }: Props) {
           <Link href="/contact">reach out</Link> to us.
         </p>
       </section>
+      
 
       <Photos />
 
