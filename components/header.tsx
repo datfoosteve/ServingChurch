@@ -4,7 +4,7 @@ import ThemeToggle from "./theme-toggle";
 export default function Header() {
   return (
     <div className="bg-fixed bg-cover bg-center bg-no-repeat rounded-md bg-[#F9FAFB] dark:bg-gray-900" style={{ backgroundImage: "url(../images/banner.png)" }}>
-    <header className="mx-auto my-8 flex max-w-5xl flex-wrap px-4 tracking-tight">
+    <header className="mx-auto pt-4 my-8 flex max-w-5xl flex-wrap px-4 tracking-tight">
       <Link
         href="/"
         className="font-display text-xl font-bold text-gray-900 hover:underline dark:text-gray-100 tablet:text-2xl"
