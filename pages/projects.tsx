@@ -22,19 +22,15 @@ export default function ProjectsPage() {
       <div className="bg-fixed bg-cover bg-center bg-no-repeat rounded-md bg-[#F9FAFB] dark:bg-gray-900" style={{ backgroundImage: "url(../images/bluebackground.svg)" }}>
       <header>
         <h1 className="mx-auto mt-8 mb-8 max-w-6xl px-4 text-3xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem]">
-        <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> Projects-Coming Soon! </a>
+        <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> Podcast </a>
         </h1>
 
       <ul className="mx-auto mb-16 max-w-5xl px-4">
         <li className="mx-auto mb-8 max-w-5xl px-4 text-2xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem]">
-        <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> Podcasts </a>
-          {/* <ul >
-            <li className="text-2xl " >
-             ---- Led By Pastor Sam
-            </li>
-          </ul> */}
+        <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> The Line Up </a>
+        <iframe src="https://embed.acast.com/63e8db9ba8620900104f58ab?theme=light&font-family=Adamina&font-src=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAdamina&feed=true" frameBorder="0" width="100%" height="630px"></iframe>
         </li>
-        <li className="mx-auto mb-8 max-w-5xl px-4 text-2xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem] ">
+        {/* <li className="mx-auto mb-8 max-w-5xl px-4 text-2xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem] ">
           <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> Books </a>
         </li>
         <li className="mx-auto mb-8 max-w-5xl px-4 text-2xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem]">
@@ -45,7 +41,7 @@ export default function ProjectsPage() {
         </li>
         <li className="mx-auto mb-8 max-w-5xl px-4 text-2xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem]">
         <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> Movies </a>
-        </li>
+        </li> */}
 
     </ul>
       </header>

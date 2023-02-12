@@ -26,7 +26,7 @@ export default function Header() {
           </li>
           <li>
             <Link href="/projects" className="hover:underline">
-              Projects
+              Podcasts
             </Link>
           </li>
           <li>
