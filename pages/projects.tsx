@@ -28,7 +28,7 @@ export default function ProjectsPage() {
       <ul className="mx-auto mb-16 max-w-5xl px-4">
         <li className="mx-auto mb-8 max-w-5xl px-4 text-2xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem]">
         <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> The Line Up </a>
-        <iframe src="https://embed.acast.com/63e8db9ba8620900104f58ab?theme=light&font-family=Adamina&font-src=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAdamina&feed=true" frameBorder="0" width="100%" height="630px"></iframe>
+        <iframe src="https://embed.acast.com/63d6855a93dfbe00116a43c6?feed=true" frameBorder="0" width="100%" height="630px"></iframe>
         </li>
         {/* <li className="mx-auto mb-8 max-w-5xl px-4 text-2xl font-bold text-gray-900 dark:text-gray-100 md:mb-10 md:mt-32 md:text-5xl lg:mb-12 lg:text-[3.5rem] ">
           <a className=" bg-white p-2 shadow-sm dark:border-0 dark:bg-gray-900 dark:text-gray-100 rounded-md "> Books </a>
